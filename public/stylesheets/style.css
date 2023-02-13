@@ -65,7 +65,7 @@ nav a {
   background-image: url(https://cuadernosdeseguridad.com/wp-content/uploads/2017/12/drones-noche.jpg);
   background-size: cover;
   background-position-y: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 #dron-container {
@@ -100,7 +100,18 @@ nav a {
 .each-dron-container button{
   margin-bottom: 10px;
   border: 2px solid var(--color-enlaces);
-  min-width: 160px;
+  max-width: 160px;
   border-radius: 8px;
   color: var(--color-montaña);
+}
+
+/* Forms Views */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-container {
+
 }
