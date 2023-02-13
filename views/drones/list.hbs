@@ -3,6 +3,7 @@
   {{#each allDrones}}
     <h4>Name: {{this.name}}</h4>
     <p>Propellers: {{this.propellers}}</p>
-    <p>Speed: {{this.speed}}</p>
+    <p>Speed: {{this.maxSpeed}}</p>
+    <a href="/drones/{{this._id}}/edit"><button>Actualizar data del Dron</button></a>
   {{/each}}
 </div>
