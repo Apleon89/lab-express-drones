@@ -1,8 +1,52 @@
+/* Globales */
+:root {
+  --color-enlaces: #00b7ff;
+  --color-montaña: rgb(67, 97, 89);
+}
+
+html {
+  font-size: 14px;
+}
+
 body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00b7ff;
+  color: var(--color-enlaces);
 }
+
+/* Nav Bar*/
+
+nav {
+  padding: 10px;
+}
+
+nav a {
+  padding: 0 20px
+}
+
+/* Home */
+
+#index-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-image: url(https://wallpaperaccess.com/full/3507536.jpg);
+  background-size: cover;
+}
+
+#index-container h1 {
+  padding-top: 30px;
+  font-size: 3rem;
+  color: var(--color-montaña);
+}
+
+/* Drone List */
+
